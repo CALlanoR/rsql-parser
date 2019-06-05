@@ -79,7 +79,7 @@ SKIP : {
 }
 
 TOKEN : {
-    < #ALPHA        : ["a"-"z", "A"-"Z"] >
+    < #ALPHA        : ["a"-"z", "A"-"Z", "&"] >
   | < #ESCAPED_CHAR : "\\" ~[] >
 }
 
